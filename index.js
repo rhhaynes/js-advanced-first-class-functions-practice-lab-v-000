@@ -11,7 +11,7 @@ function driversByRevenue(){
 function driversByName(){
 }
 
-function logDriversByHometown(){
+function totalRevenue(){
 }
 
 function logDriversByHometown(){
