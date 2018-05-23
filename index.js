@@ -25,6 +25,9 @@ function driversByName(arr){
 }
 
 function totalRevenue(arr){
+  arr.reduce(
+    function(acc, val){return acc + val}
+  );
 }
 
 function averageRevenue(arr){
