@@ -13,11 +13,9 @@ function logDriversByHometown(arr, loc){
 }
 
 function driversByRevenue(arr){
-  const arrCopy = arr.slice();
-  arrCopy.sort(
+  return arr.slice().sort(
     function(a, b){return a.revenue - b.revenue}
   );
-  return arrCopy;
 }
 
 function driversByName(){
