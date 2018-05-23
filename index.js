@@ -16,7 +16,7 @@ function driversByRevenue(arr){
   const arrCopy = arr.slice();
   arrCopy.sort(
     function(a, b){
-      a.revenue 
+      return a.revenue - 
     });
 }
 
