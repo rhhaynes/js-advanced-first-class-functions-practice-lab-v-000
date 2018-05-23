@@ -1,5 +1,7 @@
 function logDriverNames(arr){
-  arr.forEach( function(obj){console.log(obj.name)} );
+  arr.forEach(
+    function(obj){console.log(obj.name)}
+  );
 }
 
 function logDriversByHometown(arr, loc){
