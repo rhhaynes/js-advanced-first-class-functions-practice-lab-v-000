@@ -5,7 +5,7 @@ function logDriverNames(arr){
 function logDriversByHometown(){
 }
 
-function logDriversByHometown(){
+function driversByRevenue(){
 }
 
 function logDriversByHometown(){
