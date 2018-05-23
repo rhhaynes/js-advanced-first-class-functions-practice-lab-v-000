@@ -20,7 +20,7 @@ function driversByRevenue(arr){
 
 function driversByName(arr){
   return arr.slice().sort(
-    function(a, b){}
+    function(a, b){return a.localeCompare(b)}
   );
 }
 
