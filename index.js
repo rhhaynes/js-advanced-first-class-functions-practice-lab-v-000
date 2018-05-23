@@ -2,7 +2,10 @@ function logDriverNames(arr){
   arr.forEach( function(obj){console.log(obj.name)} );
 }
 
-function logDriversByHometown(){
+function logDriversByHometown(arr, loc){
+  arr.forEach( function(obj){
+      if (obj.hometown === loc){console.log(obj.name)} }
+  );
 }
 
 function driversByRevenue(){
