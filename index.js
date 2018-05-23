@@ -17,6 +17,7 @@ function driversByRevenue(arr){
   arrCopy.sort(
     function(a, b){return a.revenue - b.revenue}
   );
+  return arrCopy;
 }
 
 function driversByName(){
