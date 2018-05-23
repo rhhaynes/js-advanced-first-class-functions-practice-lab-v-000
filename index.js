@@ -8,7 +8,7 @@ function logDriversByHometown(){
 function driversByRevenue(){
 }
 
-function logDriversByHometown(){
+function driversByName(){
 }
 
 function logDriversByHometown(){
