@@ -3,8 +3,10 @@ function logDriverNames(arr){
 }
 
 function logDriversByHometown(arr, loc){
-  arr.forEach( function(obj){
-      if (obj.hometown === loc){console.log(obj.name)} }
+  arr.forEach(
+    function(obj){
+      if (obj.hometown === loc){console.log(obj.name)}
+    }
   );
 }
 
