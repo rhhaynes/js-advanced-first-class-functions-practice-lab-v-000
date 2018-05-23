@@ -14,7 +14,10 @@ function logDriversByHometown(arr, loc){
 
 function driversByRevenue(arr){
   const arrCopy = arr.slice();
-  arrCopy.sort(function(){});
+  arrCopy.sort(
+    function(a, b){
+      a.revenue 
+    });
 }
 
 function driversByName(){
