@@ -18,7 +18,10 @@ function driversByRevenue(arr){
   );
 }
 
-function driversByName(){
+function driversByName(arr){
+  return arr.slice().sort(
+    function(a, b){}
+  );
 }
 
 function totalRevenue(){
