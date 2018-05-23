@@ -4,3 +4,15 @@ function logDriverNames(arr){
 
 function logDriversByHometown(){
 }
+
+function logDriversByHometown(){
+}
+
+function logDriversByHometown(){
+}
+
+function logDriversByHometown(){
+}
+
+function logDriversByHometown(){
+}
